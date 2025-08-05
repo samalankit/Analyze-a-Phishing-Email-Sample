@@ -1,14 +1,16 @@
 MxToolbox Email Header Analysis Result – xIoTz Job Email
 
-DMARC: Pass
-SPF: Pass
+DMARC: Complaint
+SPF: Fail
 DKIM: Fail
 
-Details:
-- SPF Alignment: ✅
-- SPF Authenticated: ✅
-- DKIM Alignment: ❌
-- DKIM Authenticated: ❌
+Header Analysis (via MXToolbox):
+❌ DMARC Compliant
+❌ SPF Alignment Failed
+✅ SPF Authenticated
+✅ DKIM Alignment
+❌ DKIM Authentication Failed
+
 
 Relay Servers:
 - From: srv1642.main-hosting.eu
