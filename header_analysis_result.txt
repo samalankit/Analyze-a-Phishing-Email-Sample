@@ -1,0 +1,18 @@
+MxToolbox Email Header Analysis Result – xIoTz Job Email
+
+DMARC: Pass
+SPF: Pass
+DKIM: Fail
+
+Details:
+- SPF Alignment: ✅
+- SPF Authenticated: ✅
+- DKIM Alignment: ❌
+- DKIM Authenticated: ❌
+
+Relay Servers:
+- From: srv1642.main-hosting.eu
+- Via: relay.mailchannels.net
+
+Analysis:
+The message is DMARC and SPF compliant, but DKIM authentication failed. This means the message may have been modified or forged, despite passing basic source validation. The use of non-company mail servers raises suspicion.
