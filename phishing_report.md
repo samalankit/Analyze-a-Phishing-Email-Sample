@@ -6,12 +6,12 @@
 - Sender uses a legitimate-looking job-related subject line to appear trustworthy.
 - The authenticity of the domain should be checked manually if it doesn't match official job domains (e.g., careers.xiotz.com).
 
-## 2. Header Analysis (from MxToolbox)
-- **DMARC Compliant** ✅
-- **SPF Alignment** ✅
-- **SPF Authenticated** ✅
-- **DKIM Alignment** ❌
-- **DKIM Authenticated** ❌
+## 2. Header Analysis (via MXToolbox):
+❌ DMARC Compliant
+❌ SPF Alignment Failed
+✅ SPF Authenticated
+✅ DKIM Alignment
+❌ DKIM Authentication Failed
 
 ⚠️ DKIM failed – which may indicate the message was **forged** or altered during transit.
 
